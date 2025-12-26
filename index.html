@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradeGoggles Pro - AI Studio</title>
+    <!-- Tailwind CSS pentru design rapid și responsiv -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome pentru iconițe moderne -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+        
+        body { 
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        /* Scrollbar standard (Light Mode) */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #f1f5f9; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+        /* Scrollbar Dark Mode */
+        .dark ::-webkit-scrollbar-track { background: #060811; }
+        .dark ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 10px; }
+        .dark ::-webkit-scrollbar-thumb:hover { background: #334155; }
+
+        .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #334155; border-radius: 10px; }
+
+        #root { min-height: 100vh; }
+
+        /* PRINT STYLES FOR PDF EXPORT */
+        @media print {
+            aside, 
+            button:not(.print-header-button), 
+            .no-print,
+            header button,
+            nav {
+                display: none !important;
+            }
+            
+            body, html {
+                background: white !important;
+                color: black !important;
+            }
+
+            main {
+                padding: 0 !important;
+                margin: 0 !important;
+                width: 100% !important;
+            }
+
+            .dark main {
+                background: white !important;
+                color: black !important;
+            }
+
+            .bg-[#0b1222], .bg-[#0a0f1d], .bg-slate-900, .bg-slate-950 {
+                background: white !important;
+                border: 1px solid #e2e8f0 !important;
+                color: black !important;
+                box-shadow: none !important;
+            }
+
+            h1, h2, h3, h4, p, span, td, th {
+                color: black !important;
+            }
+
+            .text-white { color: black !important; }
+            .text-slate-400, .text-slate-500 { color: #64748b !important; }
+
+            canvas, svg {
+                max-width: 100% !important;
+            }
+
+            tr {
+                page-break-inside: avoid;
+            }
+
+            @page {
+                margin: 1cm;
+                size: A4;
+            }
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.34.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0",
+    "recharts": "https://esm.sh/recharts@^3.6.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
