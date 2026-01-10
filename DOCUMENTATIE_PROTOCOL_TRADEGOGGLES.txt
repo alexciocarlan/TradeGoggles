@@ -1,0 +1,92 @@
+==========================================================================
+                TRADEGOGGLES PRO - PROTOCOLUL SENTINEL v4.5
+                    Ghidul Procesului Operațional pentru Traderi
+==========================================================================
+
+TradeGoggles nu este doar un jurnal, ci un sistem de operare comportamental. 
+Procesul este conceput să mute traderul din starea reactivă (Amygdala) în 
+starea analitică (Cortexul Prefrontal).
+
+--------------------------------------------------------------------------
+ETAPA 1: BIOMETRIC SYNC (GATEKEEPER)
+--------------------------------------------------------------------------
+Înainte de a deschide graficele, traderul trece prin "Scanarea Biometrică":
+
+1. Introducerea datelor: Traderul introduce HRV (Variabilitatea Ritmului 
+   Cardiac), orele de somn și auto-evaluarea energiei fizice/mentale.
+2. Algoritmul Gatekeeper: Sistemul calculează un scor de la 0 la 100.
+3. Decizia de Acces: 
+   - SCOR VERDE (>80): Acces total, risc 100%.
+   - SCOR GALBEN (50-80): Atenție sporită, recomandare de reducere a riscului.
+   - SCOR ROȘU (<50): LOCKDOWN. Sistemul recomandă oprirea tranzacționării 
+     pentru a preveni pierderile cauzate de oboseală sau stres.
+
+--------------------------------------------------------------------------
+ETAPA 2: UNCERTAINTY CONTRACT (PRE-FIGHT SEQUENCE)
+--------------------------------------------------------------------------
+Odată acceptat de Gatekeeper, traderul își calibrează mindsetul:
+
+1. Vizualizarea Haosului: Traderul acceptă că orice trade individual are un 
+   rezultat aleatoriu.
+2. Semnarea Contractului: Bifează checklist-ul de integritate (Acceptarea 
+   pierderii, non-agresiunea asupra stop-loss-ului).
+3. Focus Error: Traderul selectează o eroare specifică din trecut (ex: FOMO) 
+   pe care promite să o corecteze în sesiunea curentă.
+
+--------------------------------------------------------------------------
+ETAPA 3: ARBITRAGE FILTERING (DECISION FUNNEL)
+--------------------------------------------------------------------------
+Filtrarea zgomotului de piață prin 7 straturi de analiză rece:
+
+1. News & Structure: Identificarea evenimentelor macro și a bias-ului HTF.
+2. Contextual Aperture: Relația prețului cu Value Area (GAP, Inside, Outside).
+3. Opening Auction: Clasificarea tipului de deschidere (Drive, Test, Rejection).
+4. Intraday Regime: Stabilirea strategiei (Momentum vs. Mean Reversion).
+
+Rezultatul: Sistemul iluminează doar acele strategii din "Playbook" care sunt 
+statistic valide pentru contextul curent.
+
+--------------------------------------------------------------------------
+ETAPA 4: SURGICAL EXECUTION (BATTLE LOG)
+--------------------------------------------------------------------------
+Execuția propriu-zisă (Manuală sau via Rithmic Live Sync):
+
+1. Disciplina Execuției: Traderul execută doar setup-urile validate la Pasul 3.
+2. Managementul Riscului: Sistemul monitorizează în timp real atingerea 
+   limitelor de Daily Stop Loss sau Max Trades.
+3. Tilt Risk Intel: Un indicator "Heat Map" avertizează traderul dacă se 
+   apropie de o stare emoțională instabilă bazată pe pierderi consecutive.
+
+--------------------------------------------------------------------------
+ETAPA 5: EXECUTION AUTOPSY (POST-MORTEM & AI COACH)
+--------------------------------------------------------------------------
+După închiderea tranzacției, începe procesul de învățare:
+
+1. Disecția Tehnică: Introducerea prețurilor de intrare/ieșire și a screenshot-urilor.
+2. Sinceritate Brutală: Traderul notează starea mentală reală în timpul trade-ului.
+3. AI Core Coach (Gemini): Traderul activează analiza AI. Modelul compară 
+   planul inițial cu execuția reală și identifică "Performance Gaps" sau 
+   "Toxic Wins" (câștiguri obținute prin încălcarea regulilor).
+
+--------------------------------------------------------------------------
+ETAPA 6: EXPERIENCE ARCHIVING (DAY WRAP-UP)
+--------------------------------------------------------------------------
+Finalizarea zilei de lucru:
+
+1. Habit Matrix: Verificarea respectării regulilor "No-Go".
+2. Lecția de Aur: Extragerea unei singure acțiuni concrete pentru mâine.
+3. Finalizarea Scorului TG: Scorul zilei este arhivat în "Behavioral Equity", 
+   contribuind la progresul traderului spre statusul de elită "SENTINEL".
+
+--------------------------------------------------------------------------
+METRICI CHEIE URMĂRITE
+--------------------------------------------------------------------------
+- TG Score: Media disciplinei (Pregătire + Execuție + Review).
+- Profit Factor Index: Eficiența capitalului.
+- Consistency 30% Rule: Monitorizarea pentru a preveni dependența de 
+  un singur trade norocos.
+- Behavioral Equity: Reputația traderului în fața sistemului.
+
+==========================================================================
+         "Trading-ul nu este despre a avea dreptate, ci despre a fi disciplinat."
+==========================================================================
