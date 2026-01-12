@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradeGoggles Pro - AI Studio</title>
+    <!-- Tailwind CSS pentru design rapid și responsiv -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome pentru iconițe moderne -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+        
+        body { 
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        /* Scrollbar standard (Light Mode) */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #f1f5f9; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+        /* Scrollbar Dark Mode */
+        .dark ::-webkit-scrollbar-track { background: #060811; }
+        .dark ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 10px; }
+        .dark ::-webkit-scrollbar-thumb:hover { background: #334155; }
+
+        .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #334155; border-radius: 10px; }
+
+        #root { min-height: 100vh; }
+
+        /* PRINT STYLES FOR PDF EXPORT */
+        @media print {
+            aside, 
+            button:not(.print-header-button), 
+            .no-print,
+            header button,
+            nav {
+                display: none !important;
+            }
+            
+            body, html {
+                background: white !important;
+                color: black !important;
+            }
+
+            main {
+                padding: 0 !important;
+                margin: 0 !important;
+                width: 100% !important;
+            }
+
+            .dark main {
+                background: white !important;
+                color: black !important;
+            }
+
+            .bg-[#0b1222], .bg-[#0a0f1d], .bg-slate-900, .bg-slate-950 {
+                background: white !important;
+                border: 1px solid #e2e8f0 !important;
+                color: black !important;
+                box-shadow: none !important;
+            }
+
+            h1, h2, h3, h4, p, span, td, th {
+                color: black !important;
+            }
+
+            .text-white { color: black !important; }
+            .text-slate-400, .text-slate-500 { color: #64748b !important; }
+
+            canvas, svg {
+                max-width: 100% !important;
+            }
+
+            tr {
+                page-break-inside: avoid;
+            }
+
+            @page {
+                margin: 1cm;
+                size: A4;
+            }
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.3.1",
+    "react/": "https://esm.sh/react@18.3.1/",
+    "react-dom": "https://esm.sh/react-dom@18.3.1",
+    "react-dom/": "https://esm.sh/react-dom@18.3.1/",
+    "@tanstack/react-query": "https://esm.sh/@tanstack/react-query@5.51.15?external=react,react-dom",
+    "zustand": "https://esm.sh/zustand@4.5.2?external=react",
+    "zustand/react/shallow": "https://esm.sh/zustand@4.5.2/react/shallow?external=react",
+    "zod": "https://esm.sh/zod@3.23.8",
+    "dexie": "https://esm.sh/dexie@4.0.11",
+    "recharts": "https://esm.sh/recharts@2.12.7?external=react,react-dom",
+    "@google/genai": "https://esm.sh/@google/genai@0.1.1",
+    "react-router": "https://esm.sh/react-router@6.22.3?external=react,react-dom",
+    "react-router-dom": "https://esm.sh/react-router-dom@6.22.3?external=react,react-dom",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@4.2.1",
+    "vite": "https://esm.sh/vite@5.2.11",
+    "immer": "https://esm.sh/immer@10.1.1",
+    "react-virtualized-auto-sizer": "https://esm.sh/react-virtualized-auto-sizer@1.0.24?external=react,react-dom",
+    "react-window": "https://esm.sh/react-window@1.8.10?external=react,react-dom",
+    "jsonrepair": "https://esm.sh/jsonrepair@3.6.0",
+    "zustand/": "https://esm.sh/zustand@^5.0.9/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+    <!-- Punctul de intrare pentru Vite -->
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

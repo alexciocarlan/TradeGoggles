@@ -1,0 +1,5 @@
+{
+  "name": "TradeGoggles - AI Trading Journal",
+  "description": "A comprehensive trading journal and analytics platform inspired by TradeZella, featuring performance tracking, equity curves, calendar views, and AI-powered trade post-mortems using Gemini.",
+  "requestFramePermissions": []
+}
